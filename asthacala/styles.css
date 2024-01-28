@@ -1,0 +1,1272 @@
+html,
+body {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+.nav-item {
+	align-items: flex-start;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.nav-icon {
+	width: 32px;
+	height: 32px;
+	padding-top: 16px;
+	padding-left: 60px;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+	font-weight: bold;
+}
+
+a.nav-item:hover {
+	color: #fff;
+	font-weight: bold;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: fit-content;
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nav a:hover {
+	background-color: #e47a08;
+}
+
+.nav a.active {
+	color: #fff;
+	background-color: #e47a08;
+	width: fit-content;
+	font-weight: bold;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+.nav-bar {
+	background-color: #0e192f;
+	width: 100%;
+	height: 140px;
+	padding-top: 48px;
+	text-align: center;
+}
+
+.nav-left {
+	color: #fff;
+	margin-top: 13px;
+}
+
+.home-section,
+.footer-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg_leaf.webp');
+	background-size: 100% 100%;
+	background-blend-mode: darken;
+	height: 800px;
+}
+
+.home-desc-section {
+	background-image: url('../img/bg_white_gold.webp');
+	background-size: 100% 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.amerta-logo {
+	width: 480px;
+	margin-top: 40px;
+}
+
+.home-text {
+	width: 90%;
+	height: 90%;
+	margin: 5%
+}
+
+.home-image {
+	width: 90%;
+	height: 90%;
+	margin: 5%
+}
+
+.home-container {
+	align-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.about-desc {
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+	text-align: justify;
+}
+
+.about-image {
+	width: 90%;
+	height: 90%;
+	margin: 5%
+}
+
+.content {
+	font-size: 24px;
+	text-align: justify;
+}
+
+.title {
+	font-size: 64px;
+	margin-bottom: 60px;
+	text-align: center;
+	font-family: "";
+	color: #0e192f;
+}
+
+.masterplan {
+	margin-bottom: 10%;
+}
+
+.masterplan-mobile {
+	display: none;
+}
+
+.masterplan-color {
+	width: 15px;
+}
+
+.masterplan-desc {
+	text-align: justify;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.masterplan-column {
+	color: #0e192f;
+	font-size: 20px;
+	margin: 48px;
+	text-align: center;
+	align-items: center;
+}
+
+.masterplan-container {
+	display: inline;
+	align-items: center;
+	justify-content: center;
+}
+
+.masterplan-icon {
+	width: 128px;
+	height: 128px;
+}
+
+.masterplan-title {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.specification-title {
+	font-size: 40px;
+	font-family: "";
+	color: #0e192f;
+	font-style: bold;
+}
+
+.specification-content {
+	font-size: 28px;
+	text-align: justify;
+	width: 100%;
+}
+
+.interior {
+	background-image: url('../img/bg_blue.webp');
+	background-size: 100% 100%;
+}
+
+.exterior {
+	background-image: url('../img/bg_blue.webp');
+	background-size: 100% 100%;
+	margin-top: 5%;
+}
+
+.interior-desc-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.container-interior {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.interior-content {
+	font-size: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.line {
+	width: 400px;
+	align-content: center;
+	align-items: center;
+	background-color: #dfdfdf;
+}
+
+.interior-desc {
+	color: #dfdfdf;
+	margin: 30px;
+	text-align: center;
+	align-items: space-between;
+}
+
+.exterior-desc {
+	color: #dfdfdf;
+	margin: 30px;
+	text-align: center;
+	align-items: space-between;
+}
+
+.tour-house {
+	margin-top: 5%;
+}
+
+.carousel-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 600px;
+}
+
+.location {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.qr-image {
+	width: 250px;
+	height: 250px;
+}
+
+.location-content {
+	font-size: 24px;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 24px;
+	color: #fff;
+}
+
+.footer-container {
+	align-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-section {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-title {
+	font-size: 32px;
+	color: #fff;
+}
+
+.footer-image {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+}
+
+.social-container {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	margin-top: 1px;
+	font-size: 24px;
+}
+
+.icon {
+	margin-top: 10px;
+
+}
+
+.footer-text-marketing {
+	font-size: 24px;
+}
+
+.footer-text-location {
+	font-size: 24px;
+	text-align: right;
+}
+
+.footer-icon-text {
+	font-size: 24px;
+	color: #dfdfdf;
+}
+
+a.footer-icon-text:hover {
+	color: #fff;
+}
+
+.void-background {
+	background-color: transparent;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.slideshow {
+	height: 100%;
+	overflow: hidden;
+	/* to hide slides in x-direction */
+	position: relative;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+.slideshow-2 {
+	height: 100%;
+	overflow: hidden;
+	/* to hide slides in x-direction */
+	position: relative;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+.slideshow-wrapper {
+	display: flex;
+	/* We give it width as 400% because we are making a  
+	   4 image carousel. If you want to make for example,  
+	   5 images carousel, then give width as 500%. */
+	width: 400%;
+	height: 100%;
+	position: relative;
+	/* you can change the animation settings from below */
+	animation: slideshow 20s infinite;
+}
+
+.slideshow-wrapper-2 {
+	display: flex;
+	/* We give it width as 400% because we are making a  
+	   4 image carousel. If you want to make for example,  
+	   5 images carousel, then give width as 500%. */
+	width: 200%;
+	height: 100%;
+	position: relative;
+	/* you can change the animation settings from below */
+	animation: slideshow-2 20s infinite;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+}
+
+.slide-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+@keyframes slideshow {
+	0% {
+		left: 0;
+	}
+
+	10% {
+		left: 0;
+	}
+
+	15% {
+		left: -100%;
+	}
+
+	25% {
+		left: -100%;
+	}
+
+	30% {
+		left: -200%;
+	}
+
+	40% {
+		left: -200%;
+	}
+
+	45% {
+		left: -300%;
+	}
+
+	55% {
+		left: -300%;
+	}
+
+	60% {
+		left: -200%;
+	}
+
+	70% {
+		left: -200%;
+	}
+
+	75% {
+		left: -100%;
+	}
+
+	85% {
+		left: -100%;
+	}
+
+	90% {
+		left: 0%;
+	}
+}
+
+@keyframes slideshow-2 {
+	0% {
+		left: 0;
+	}
+
+	10% {
+		left: 0;
+	}
+
+	15% {
+		left: -100%;
+	}
+
+	25% {
+		left: -100%;
+	}
+
+	30% {
+		left: 0;
+	}
+
+	40% {
+		left: 0;
+	}
+
+	45% {
+		left: -100%;
+	}
+
+	55% {
+		left: -100%;
+	}
+
+	60% {
+		left: 0%;
+	}
+
+	70% {
+		left: 0%;
+	}
+
+	75% {
+		left: -100%;
+	}
+
+	85% {
+		left: -100%;
+	}
+
+	90% {
+		left: 0%;
+	}
+}
+
+.slide-btn {
+	background-color: #bbb;
+	border-radius: 50%;
+	border: .2rem solid #d38800;
+	width: 1.2rem;
+	height: 1.2rem;
+	outline: none;
+	cursor: pointer;
+	/* stylings for positioning the buttons at 
+	   the bottom of the carousel */
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	z-index: 70;
+}
+
+.slide-btn-1 {
+	left: 38%;
+}
+
+.slide-btn-2 {
+	left: 46%;
+}
+
+.slide-btn-3 {
+	left: 54%;
+}
+
+.slide-btn-4 {
+	left: 62%;
+}
+
+.slide-btn-5 {
+	left: 46%;
+}
+
+.slide-btn-6 {
+	left: 54%;
+}
+
+.slide-btn-1:focus~.slideshow-wrapper {
+	animation: none;
+	left: 0;
+}
+
+.slide-btn-2:focus~.slideshow-wrapper {
+	animation: none;
+	left: -100%;
+}
+
+.slide-btn-3:focus~.slideshow-wrapper {
+	animation: none;
+	left: -200%;
+}
+
+.slide-btn-4:focus~.slideshow-wrapper {
+	animation: none;
+	left: -300%;
+}
+
+.slide-btn-5:focus~.slideshow-wrapper-2 {
+	animation: none;
+	left: 0;
+}
+
+.slide-btn-6:focus~.slideshow-wrapper-2 {
+	animation: none;
+	left: -100%;
+}
+
+.slide-btn:focus {
+	background-color: #e47a08;
+}
+
+@media screen and (max-width: 1080px) {
+	.nav-item {
+		align-items: flex-start;
+		font-weight: bold;
+		overflow: hidden;
+	}
+
+	.nav-icon {
+		width: 32px;
+		height: 32px;
+		padding-top: 16px;
+		padding-left: 40px;
+	}
+
+	a.nav-item {
+		color: #dfdfdf;
+		font-weight: bold;
+	}
+
+	a.nav-item:hover {
+		color: #fff;
+		font-weight: bold;
+		border-style: hidden;
+		border-radius: 20px;
+	}
+
+	.nav a {
+		float: left;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		width: fit-content;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.nav a:hover {
+		background-color: #e47a08;
+	}
+
+	.nav a.active {
+		color: #fff;
+		background-color: #e47a08;
+		width: fit-content;
+		font-weight: bold;
+		border-style: hidden;
+		border-radius: 20px;
+	}
+
+	.nav-bar {
+		background-color: #0e192f;
+		width: 100%;
+		height: 140px;
+		padding-top: 48px;
+		text-align: center;
+	}
+
+	.nav-left {
+		color: #fff;
+		margin-top: 13px;
+	}
+
+	.home-section,
+	.footer-section {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg_leaf.webp');
+		background-size: 100% 100%;
+		background-blend-mode: darken;
+		height: 600px;
+	}
+
+	.home-desc-section {
+		background-image: url('../img/bg_white_gold.webp');
+		background-size: 100% 100%;
+		height: 600px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.amerta-logo {
+		width: 240px;
+		margin-top: 80px;
+	}
+
+	.home-text {
+		width: 90%;
+		height: 90%;
+		margin: 5%
+	}
+
+	.home-image {
+		width: 90%;
+		height: 90%;
+		margin: 5%
+	}
+
+	.home-container {
+		align-content: space-between;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.about-desc {
+		width: 90%;
+		height: 90%;
+		margin: 5%;
+		text-align: justify;
+	}
+
+	.about-image {
+		width: 90%;
+		height: 90%;
+		margin: 5%
+	}
+
+	.content {
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.title {
+		font-size: 52px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-family: "";
+		color: #0e192f;
+	}
+
+	.masterplan-desc {
+		text-align: justify;
+		margin: 5%;
+		width: 850px;
+	}
+
+	.masterplan-color {
+		width: 10px;
+	}
+
+	.masterplan-desc {
+		text-align: justify;
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	.masterplan-column {
+		color: #0e192f;
+		margin: 48px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.masterplan-icon {
+		width: 96px;
+		height: 96px;
+	}
+
+	.masterplan-title {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.specification {
+		padding: 5%;
+	}
+
+	.specification-image {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: 95%;
+	}
+
+	.specification-title {
+		font-size: 30px;
+		font-family: "";
+		color: #0e192f;
+		font-style: bold;
+	}
+
+	.specification-content {
+		font-size: 20px;
+		text-align: justify;
+		width: 100%;
+	}
+
+	.interior-desc-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.interior-content {
+		font-size: 18px;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.line {
+		width: 250px;
+		align-content: center;
+		align-items: center;
+		background-color: #dfdfdf;
+
+	}
+
+	.interior-desc {
+		color: #dfdfdf;
+		text-align: center;
+		align-items: space-between;
+	}
+
+	.exterior-desc {
+		color: #dfdfdf;
+		text-align: center;
+		align-items: space-between;
+	}
+
+	.location {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.qr-image {
+		width: 200px;
+		height: 200px;
+	}
+
+	.location-content {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.footer-container {
+		align-content: space-between;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.amerta-logo-footer {
+		width: 240px;
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+	.footer-section {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.footer-title {
+		font-size: 20px;
+	}
+
+	.footer-text {
+		font-size: 16px;
+	}
+
+	.icon {
+		margin-top: 3px;
+	}
+
+	.social-container {
+		width: 100%;
+		display: flex;
+		align-items: left;
+		justify-content: left;
+		margin-top: 3px;
+
+		a {
+			color: #dfdfdf;
+			font-size: 16px;
+		}
+
+		a:hover {
+			color: #fff;
+			font-size: 16px;
+		}
+	}
+
+
+
+	.footer-icon-text {
+		font-size: 16px;
+		color: #dfdfdf;
+	}
+
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	.carousel-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 600px;
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.nav-item {
+		align-items: normal;
+		font-weight: bold;
+		overflow: auto;
+	}
+
+	.nav-icon {
+		width: 32px;
+		height: 32px;
+		padding-top: 16px;
+	}
+
+	a.nav-item {
+		color: #dfdfdf;
+		font-weight: normal;
+	}
+
+	a.nav-item:hover {
+		color: #fff;
+		font-weight: normal;
+		border-style: none;
+		border-radius: 0px;
+	}
+
+	.nav a {
+		float: left;
+		display: inline;
+		text-align: center;
+		text-decoration: none;
+		width: 100%;
+		margin: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		border-style: none;
+	}
+
+	.nav a:hover {
+		background-color: #e47a08;
+	}
+
+	.nav a.active {
+		color: #fff;
+		background-color: #e47a08;
+		width: 100%;
+		font-weight: normal;
+		border-style: none;
+		border-radius: 0px;
+	}
+
+	.nav-bar {
+		background-color: #0e192f;
+		width: 100%;
+		height: 140px;
+		padding-top: 48px;
+		text-align: center;
+	}
+
+	a.nav-item {
+		color: #dfdfdf;
+	}
+
+	a.nav-item:hover {
+		color: #fff;
+	}
+
+	.nav-menu {
+		background-color: #0e192f;
+	}
+
+	.nav-toggle {
+		margin-right: 5%;
+	}
+
+	.nav-toggle:hover {
+		background-color: #0e192f;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+
+	.home-section,
+	.footer-section {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg_leaf.webp');
+		background-size: 100% 100%;
+		background-blend-mode: darken;
+		height: auto;
+	}
+
+	.home-desc-section {
+		background-image: url('../img/bg_white_gold.webp');
+		background-size: 100% 100%;
+		width: 100%;
+		height: auto;
+		padding: 10% 4%;
+		margin: 0%;
+	}
+
+	.amerta-logo {
+		width: 40%;
+		margin-bottom: 20%;
+	}
+
+	.home-text {
+		width: 100%;
+		height: 100%;
+		margin: 0%;
+	}
+
+	.home-image {
+		width: 100%;
+		height: 100%;
+		margin: 0%;
+		margin-top: 10%;
+	}
+
+	.home-container {
+		width: 100%;
+		display: inline;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-container {
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 0%;
+	}
+
+	.about-desc {
+		text-align: justify;
+		width: 100%;
+		margin: 0%;
+	}
+
+	.about-image {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+
+	.content {
+		font-size: 20px;
+		margin: 0%;
+		text-align: justify;
+		text-align: justify;
+		width: 100%;
+	}
+
+	.title {
+		font-size: 40px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-family: "";
+		color: #0e192f;
+	}
+
+	.masterplan-desc {
+		display: inline-block;
+		text-align: justify;
+		margin: 5%;
+		width: 100%;
+	}
+
+	.masterplan-color {
+		width: 10px;
+	}
+
+	.masterplan-image {
+		width: 100%;
+	}
+
+	.masterplan-column {
+		color: #0e192f;
+		margin: 0px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.masterplan-container {
+		display: contents;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.masterplan-icon {
+		width: 30%;
+		height: 30%;
+	}
+
+	.masterplan-title {
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 5%;
+	}
+
+	.specification-image {
+		width: 100%;
+	}
+
+	.specification-title {
+		font-size: 30px;
+		text-align: center;
+		font-family: "";
+		color: #0e192f;
+		font-style: bold;
+		margin: 0px;
+	}
+
+	.specification-content {
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+	}
+
+	.interior {
+		margin: 0px;
+		margin-top: 10%;
+		background-image: none;
+	}
+
+	.interior-desc-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container-interior {
+		display: inline-block;
+		background-color: #0e192f;
+	}
+
+	.interior-content {
+		font-size: 18px;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.line {
+		width: 250px;
+		align-content: center;
+		align-items: center;
+		background-color: transparent;
+
+	}
+
+	.interior-desc {
+		color: #dfdfdf;
+		text-align: center;
+		margin: 10px;
+		align-items: space-between;
+	}
+
+	.exterior-desc {
+		color: #dfdfdf;
+		text-align: center;
+		margin: 10px;
+	}
+
+	.tour-house {
+		margin-top: 10%;
+	}
+
+	.location {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.location-image {
+		margin-bottom: 5%;
+	}
+
+	.qr-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	.location-content {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.footer-container {
+		align-content: space-between;
+		width: 100%;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		padding: 30px;
+	}
+
+	.social-container {
+		display: flex;
+		align-items: left;
+		justify-content: left;
+
+		a {
+			color: #dfdfdf;
+		}
+	}
+
+	.footer-section {
+		width: 100%;
+		color: #fff;
+		display: flex;
+	}
+
+	.amerta-logo-footer {
+		width: 240px;
+		margin-top: 30px;
+		margin-bottom: 0px;
+	}
+
+	.footer-title {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.footer-image {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footer-text-location {
+		text-align: left;
+	}
+
+	.footer-icon-text {
+		display: none;
+	}
+
+	.carousel-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 480px;
+
+	}
+}

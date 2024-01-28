@@ -1,0 +1,355 @@
+html,
+body {
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	;
+}
+
+.nav {
+	padding: 5%;
+}
+
+.nav-item {
+	margin-left: 48px;
+	align-items: end;
+	font-weight: bold;
+	overflow: hidden;
+	width: 100px;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 5px solid transparent;
+}
+
+.nav a:hover {
+	border-bottom: 5px solid #e47a08;
+	width: 100px
+}
+
+.nav a.active {
+	width: 100px
+}
+
+
+.home-section,
+.footer-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg_amerta.webp');
+	background-size: 100% 100%;
+	background-blend-mode: darken;
+	height: 800px;
+}
+
+.amerta-logo {
+	width: 256px;
+	margin-top: 10%;
+}
+
+.asthacala-button {
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/btn_asthacala.webp);
+	width: 256px;
+	height: 64px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	border-style: none;
+}
+
+.asthacala-button:hover {
+	background: url(../img/btn_asthacala.webp);
+	width: 256px;
+	height: 64px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+
+}
+
+.title {
+	font-size: 64px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+.subtitle {
+	font-size: 64px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+.content {
+	font-size: 24px;
+	margin-left: 60px;
+	text-align: justify;
+}
+
+.business-column {
+	color: #000;
+	font-size: 20px;
+	margin: 48px;
+	text-align: center;
+}
+
+.business-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+
+.business-icon {
+	width: 128px;
+	height: 128px;
+}
+
+.business-title {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer-text {
+	font-size: 24px;
+}
+
+.customer-service {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.footer-container {
+	margin: 60px;
+	align-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.footer-section {
+	width: 100%;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 24px;
+}
+
+.footer-title {
+	font-size: 32px;
+}
+
+.amerta-logo-footer {
+	width: 360px;
+	align-items: center;
+}
+
+.void-background {
+	background-color: transparent;
+}
+
+@media screen and (max-width: 1080px) {
+	.business-container {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.business-column {
+		color: #000;
+		font-size: 20px;
+		margin: 28px;
+		text-align: center;
+	}
+
+	.business-icon {
+		width: 80px;
+		height: 80px;
+	}
+
+	.business-title {
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.nav-item {
+		margin-left: 0px;
+		align-items: normal;
+		font-weight: bold;
+		overflow: hidden;
+		width: auto;
+	}
+
+	a.nav-item {
+		color: #dfdfdf;
+	}
+
+	a.nav-item:hover {
+		color: #fff;
+	}
+
+	.nav a {
+		float: left;
+		display: inline;
+		text-align: center;
+		text-decoration: none;
+		border-bottom: none;
+		width: 100%;
+	}
+
+	.nav a:hover {
+		border-bottom: none;
+		width: 100%;
+		background-color: #e47a08be;
+	}
+
+	.nav a.active {
+		width: 100%;
+		background-color: #e47a08be;
+	}
+
+	.nav-menu {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+	.amerta-logo {
+		width: 256px;
+		margin-top: 20%;
+	}
+
+	.asthacala-button {
+		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/btn_asthacala.webp);
+		width: 256px;
+		height: 64px;
+		background-size: cover;
+		background-position: center;
+		border-radius: 10px;
+		border-style: none;
+	}
+
+	.asthacala-button:hover {
+		background: url(../img/btn_asthacala.webp);
+		width: 256px;
+		height: 64px;
+		background-size: cover;
+		background-position: center;
+		border-radius: 10px;
+
+	}
+
+	.title {
+		font-size: 48px;
+		font-weight: bold;
+		margin-top: 100px;
+		margin-bottom: 60px;
+		text-align: center;
+	}
+
+	.subtitle {
+		font-size: 48px;
+		font-weight: bold;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.content {
+		font-size: 20px;
+		margin-left: 0px;
+		text-align: justify;
+		margin: 5%;
+	}
+
+	.business-container {
+		width: 100%;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.business-column {
+		color: #000;
+		font-size: 32px;
+		margin: 32px;
+		text-align: center;
+	}
+
+	.business-icon {
+		width: 96px;
+		height: 96px;
+		margin-top: 10%;
+	}
+
+	.business-title {
+		font-size: 32px;
+		font-weight: bold;
+	}
+
+	.footer-container {
+		align-content: space-between;
+		width: 100%;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.footer-section {
+		width: 100%;
+		color: #fff;
+		display: inline-block;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 24px;
+		height: auto;
+	}
+
+	.footer-text {
+		margin: 5%;
+	}
+
+	.footer-title {
+		font-size: 32px;
+	}
+
+	.footer-image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 5%;
+	}
+
+}

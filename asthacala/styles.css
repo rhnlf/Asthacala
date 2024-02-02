@@ -321,7 +321,6 @@ a.nav-item:hover {
 
 .icon {
 	margin-top: 10px;
-
 }
 
 .footer-text-marketing {
@@ -355,7 +354,6 @@ a.footer-icon-text:hover {
 .slideshow {
 	height: 100%;
 	overflow: hidden;
-	/* to hide slides in x-direction */
 	position: relative;
 	border-style: hidden;
 	border-radius: 20px;
@@ -364,7 +362,6 @@ a.footer-icon-text:hover {
 .slideshow-2 {
 	height: 100%;
 	overflow: hidden;
-	/* to hide slides in x-direction */
 	position: relative;
 	border-style: hidden;
 	border-radius: 20px;
@@ -372,25 +369,17 @@ a.footer-icon-text:hover {
 
 .slideshow-wrapper {
 	display: flex;
-	/* We give it width as 400% because we are making a  
-	   4 image carousel. If you want to make for example,  
-	   5 images carousel, then give width as 500%. */
 	width: 400%;
 	height: 100%;
 	position: relative;
-	/* you can change the animation settings from below */
 	animation: slideshow 20s infinite;
 }
 
 .slideshow-wrapper-2 {
 	display: flex;
-	/* We give it width as 400% because we are making a  
-	   4 image carousel. If you want to make for example,  
-	   5 images carousel, then give width as 500%. */
 	width: 200%;
 	height: 100%;
 	position: relative;
-	/* you can change the animation settings from below */
 	animation: slideshow-2 20s infinite;
 }
 
@@ -884,8 +873,6 @@ a.footer-icon-text:hover {
 		}
 	}
 
-
-
 	.footer-icon-text {
 		font-size: 16px;
 		color: #dfdfdf;
@@ -993,7 +980,6 @@ a.footer-icon-text:hover {
 		background-color: #fff;
 	}
 
-
 	.home-section,
 	.footer-section {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg_leaf.webp');
@@ -1012,7 +998,7 @@ a.footer-icon-text:hover {
 	}
 
 	.amerta-logo {
-		width: 40%;
+		width: 70%;
 		margin-bottom: 20%;
 	}
 
@@ -1115,6 +1101,8 @@ a.footer-icon-text:hover {
 	}
 
 	.specification-image {
+		margin-left: 0px;
+		margin-right: 0px;
 		width: 100%;
 	}
 
@@ -1235,7 +1223,7 @@ a.footer-icon-text:hover {
 	}
 
 	.footer-title {
-		font-size: 20px;
+		font-size: 30px;
 		margin-top: 10px;
 	}
 
@@ -1260,6 +1248,14 @@ a.footer-icon-text:hover {
 		display: none;
 	}
 
+	.footer-text {
+		font-size: 20px;
+	}
+
+	.icon-footer {
+		display: none;
+	}	
+
 	.carousel-container {
 		display: flex;
 		flex-direction: column;
@@ -1267,6 +1263,5 @@ a.footer-icon-text:hover {
 		align-items: center;
 		width: 100%;
 		height: 480px;
-
 	}
 }
